@@ -1,0 +1,23 @@
+{
+  "name": "cla-complete",
+  "version": "1.0.0",
+  "description": "Node module to combine command-line-args and command-line-usage and auto-add a help parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animalus/cla-complete.git"
+  },
+  "author": "Ken Southerland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/animalus/cla-complete/issues"
+  },
+  "homepage": "https://github.com/animalus/cla-complete#readme",
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "command-line-usage": "^4.0.1"
+  }
+}
