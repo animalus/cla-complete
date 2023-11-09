@@ -1,0 +1,67 @@
+repo_name: animalus/cla-complete
+report_id: 1fa2a12aef25eaa4ccfb55164b2550d9
+repo_type: Public
+timestamp: '2023-11-09T16:39:18+00:00'
+requested_by: crowmagnumb
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: crowmagnumb
+  last_updated_on: 2017-11-09 22:12:42.000000000 Z
+- name: command-line-args
+  description: A mature
+  package_url: https://www.npmjs.com/command-line-args
+  version: 4.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16723/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: crowmagnumb
+  last_updated_on: 2017-11-09 22:12:42.000000000 Z
+- name: command-line-usage
+  description: Generates command-line usage information
+  package_url: https://www.npmjs.com/command-line-usage
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17318/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: crowmagnumb
+  last_updated_on: 2017-11-09 22:12:42.000000000 Z
